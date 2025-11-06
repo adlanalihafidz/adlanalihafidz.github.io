@@ -892,52 +892,6 @@ h3.my-profession {
   width: 70px;
   top: -30px;
   left: 120px;
-}
+  }
 }
 
-@media (max-width: 500px) {
-
-  .home {
-    flex-direction: column;
-    text-align: center;
-    padding-top: 60px;
-  }
-  .home .home-info {
-    flex: 0 0 100%;
-    max-width: 100%;
-    order: 2;
-  }
-  .home .home-img {
-    flex: 0 0 100%;
-    max-width: 100%;
-    order: 1;
-    margin-bottom: 30px;
-  }
-  .home .home-img img {
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .home-img::after {
-    content: "";
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    bottom: -30px;
-    right: 95px;
-  }
-  .home-img::before {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: -30px;
-  left: 95px;
-}
-}
-
-@media (max-width: 300px) {
-  .home .home-img {
-    display: none;
-  }
-}
